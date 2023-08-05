@@ -1,0 +1,409 @@
+body {
+  margin: 20px;
+}
+          body {
+  margin: 20px;
+}
+          
+/* Reset styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    margin: 20px;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+}
+
+.header {
+    text-align: center;
+}
+
+.home {
+    margin-top: 0;
+}
+
+.home .photo-section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+}
+
+.home .section-title {
+    margin: 20px;
+}
+
+.main {
+    margin-top: 10px;
+}
+
+.showreel {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.showreel .video-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 42%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.showreel .video-caption {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-family: "Slab Serif", serif;
+    font-size: 27px;
+    color: #fff;
+    opacity: 0;
+    z-index: 2;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.showreel.show-text .video-gradient,
+.showreel.show-text .video-caption {
+    opacity: 1;
+}
+
+.showreel video {
+    width: 100%;
+    max-width: 1200px;
+    z-index: 1;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-family: "Gotham Bold", sans-serif;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 0;
+    color: #fff;
+}
+
+.section-content {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #fff;
+}
+
+.section-content::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+.section-content::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.video-item,
+.photo-item {
+    flex-shrink: 0;
+    width: 320px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.video-item:hover,
+.photo-item:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    z-index: 2;
+}
+
+.video-item:hover::after,
+.photo-item:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.video-item video {
+    width: 100%;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Custom styles for the Services section */
+.services .section-content {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #fff;
+}
+
+.services .photo-item {
+    flex-shrink: 0;
+    width: 200px;
+    height: 100px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+/* Custom styles for the Brands section */
+.section[data-section="brands"] .section-content.slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #fff;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section[data-section="brands"] .slider-inner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section[data-section="brands"] .photo-item {
+    flex-shrink: 0;
+    width: 200px;
+    height: 120px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+/* Custom styles for the Film Festivals section */
+.section[data-section="film-festivals"] .section-content.slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #fff;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section[data-section="film-festivals"] .slider-inner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section[data-section="film-festivals"] .photo-item {
+    flex-shrink: 0;
+    width: 200px;
+    height: 120px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+/* Custom styles for the VFX/CGI section */
+.section[data-section="vfx-cgi"] .section-content {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #fff;
+}
+
+.section[data-section="vfx-cgi"] .video-item {
+    flex-shrink: 0;
+    width: 320px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+/* Custom styles for the Short Film and More section */
+.section[data-section="short-film"] .section-content.short-film-content {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #fff;
+}
+
+.section[data-section="short-film"] .square-video {
+    flex-shrink: 0;
+    width: 400px;
+    margin-right: 70px;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.section[data-section="short-film"] .square-video video {
+    width: 100%;
+    height: 100%;
+  width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* Gradient style for the top bar */
+.gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    z-index: 1;
+}
+
+/* Logo and navigation links */
+.logo {
+    font-size: 30px;
+    margin: 10px;
+    color: #fff;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    z-index: 2;
+}
+
+.header-links .nav-link {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.header-links .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 24px;
+    }
+}
+
+/* Additional Text Style */
+.additional-text {
+    position: absolute;
+    top: calc(50% - 5px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    text-align: center;
+    font-size: 21px;
+}
+
+.additional-text h2 {
+    font-size: 54px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+}
+
+.home.show-text .additional-text {
+    opacity: 1;
+}
+/* ... (existing CSS code) ... */
+
+/* Custom styles for the Contact Form section */
+.section.contact-form {
+    position: relative;
+}
+
+.contact-form-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.form-input {
+    margin-bottom: 20px;
+}
+
+.form-input label {
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input input,
+.form-input textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.form-input textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.form-input button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #EA6E43;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-input button:hover {
+    background-color: #FF8A65;
+}
+
+/* Custom styles for the background photo */
+body {
+    background-image: url('your-photo.jpg');
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
