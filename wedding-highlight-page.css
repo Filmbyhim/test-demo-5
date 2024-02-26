@@ -1,0 +1,537 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.wedding-highlight-page-child {
+  position: absolute;
+  height: 27.55%;
+  width: 96.63%;
+  top: 0.88%;
+  right: 1.68%;
+  bottom: 71.57%;
+  left: 1.68%;
+  background-color: var(--color-gainsboro-100);
+}
+.frame-child220,
+.frame-child221,
+.frame-child222,
+.frame-child223,
+.frame-child224,
+.frame-child225 {
+  position: absolute;
+  height: 97.67%;
+  width: 27.64%;
+  top: 0;
+  right: 72.36%;
+  bottom: 2.33%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-child221,
+.frame-child222,
+.frame-child223,
+.frame-child224,
+.frame-child225 {
+  right: 13.88%;
+  left: 58.48%;
+}
+.frame-child222,
+.frame-child223,
+.frame-child224,
+.frame-child225 {
+  right: 43.12%;
+  left: 29.24%;
+}
+.frame-child223,
+.frame-child224,
+.frame-child225 {
+  right: -15.36%;
+  left: 87.71%;
+}
+.frame-child224,
+.frame-child225 {
+  right: -44.59%;
+  left: 116.95%;
+}
+.frame-child225 {
+  right: -73.83%;
+  left: 146.19%;
+}
+.rectangle-parent46 {
+  position: absolute;
+  height: 7.83%;
+  width: 97.84%;
+  top: 67.08%;
+  right: 0;
+  bottom: 25.09%;
+  left: 2.16%;
+  overflow-x: auto;
+}
+.frame-child226,
+.frame-child227,
+.frame-child228,
+.frame-child229,
+.frame-child230,
+.frame-child231,
+.frame-child232 {
+  position: absolute;
+  height: 97.67%;
+  width: 27.76%;
+  top: 0;
+  right: 72.24%;
+  bottom: 2.33%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-child227,
+.frame-child228,
+.frame-child229,
+.frame-child230,
+.frame-child231,
+.frame-child232 {
+  right: 13.51%;
+  left: 58.73%;
+}
+.frame-child228,
+.frame-child229,
+.frame-child230,
+.frame-child231,
+.frame-child232 {
+  right: 42.87%;
+  left: 29.36%;
+}
+.frame-child229,
+.frame-child230,
+.frame-child231,
+.frame-child232 {
+  right: -15.85%;
+  left: 88.09%;
+}
+.frame-child230,
+.frame-child231,
+.frame-child232 {
+  right: -45.22%;
+  left: 117.46%;
+}
+.frame-child231,
+.frame-child232 {
+  right: -74.58%;
+  left: 146.82%;
+}
+.frame-child232 {
+  right: -103.95%;
+  left: 176.19%;
+}
+.rectangle-parent47 {
+  position: absolute;
+  height: 7.83%;
+  width: 97.42%;
+  top: 35.92%;
+  right: 0;
+  bottom: 56.25%;
+  left: 2.58%;
+  overflow-x: auto;
+}
+.wedding-highlight-page-inner,
+.wedding-highlight-page-item {
+  position: absolute;
+  left: 2.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.wedding-highlight-page-item {
+  height: 14.96%;
+  width: 95.67%;
+  top: 48.42%;
+  right: 2.16%;
+  bottom: 36.62%;
+  border-radius: var(--br-3xl);
+}
+.wedding-highlight-page-inner {
+  height: 18.17%;
+  width: 95.05%;
+  top: 78.52%;
+  right: 2.79%;
+  bottom: 3.31%;
+  border-radius: 20.79px;
+}
+.wedding-highlight-page-child1,
+.wedding-highlight-page-child2 {
+  position: absolute;
+  height: 1.18%;
+  width: 22.27%;
+  top: 29.22%;
+  right: 74.97%;
+  bottom: 69.6%;
+  left: 2.76%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.wedding-highlight-page-child2 {
+  height: 1.6%;
+  width: 19.98%;
+  top: 29.16%;
+  right: 2.92%;
+  bottom: 69.24%;
+  left: 77.1%;
+}
+.wedding-highlight-page-child3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 1.7%;
+  width: 13.46%;
+  top: 55.92%;
+  right: 5.89%;
+  bottom: 42.38%;
+  left: 80.65%;
+  border-radius: var(--br-32xl);
+  background-image: url(./public/rectangle-496@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.component-18:hover,
+.wedding-highlight-page-child3:hover,
+.wedding-highlight-page-child4:hover {
+  animation: 1s ease-in-out 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.wedding-highlight-page-child4 {
+  position: absolute;
+  height: 2.09%;
+  width: 19.29%;
+  top: 90.78%;
+  right: 39.3%;
+  bottom: 7.13%;
+  left: 41.41%;
+  border-radius: var(--br-3xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.component-1-child6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-orangered);
+}
+.icon-home8 {
+  position: absolute;
+  height: 63.33%;
+  width: 58.33%;
+  top: 18.75%;
+  right: 20.83%;
+  bottom: 17.92%;
+  left: 20.83%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.component-18 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 2.91%;
+  width: 5.77%;
+  top: 28.88%;
+  right: 47.12%;
+  bottom: 68.2%;
+  left: 47.12%;
+  border-radius: var(--br-81xl);
+  background-image: url(./public/component-11@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.wedding-highlight-page-child5,
+.wedding-highlight-page-child6 {
+  position: absolute;
+  height: 1.04%;
+  width: 15.08%;
+  top: 65.78%;
+  right: 83.11%;
+  bottom: 33.18%;
+  left: 1.8%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.wedding-highlight-page-child6 {
+  height: 1.09%;
+  width: 11%;
+  top: 34.56%;
+  right: 86.84%;
+  bottom: 64.35%;
+  left: 2.16%;
+}
+.wedding-highlight-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  height: 3296px;
+  overflow: hidden;
+}
+@media screen and (max-width: 6114px) {
+  .wedding-highlight-page {
+    width: 6114px;
+    height: 12110px;
+  }
+}
+@media screen and (max-width: 5120px) {
+  .wedding-highlight-page {
+    width: 5120px;
+    height: 10141px;
+  }
+}
+@media screen and (max-width: 3840px) {
+  .wedding-highlight-page {
+    width: 3840px;
+    height: 7606px;
+  }
+}
+@media screen and (max-width: 3546px) {
+  .wedding-highlight-page {
+    width: 3546px;
+    height: 7023px;
+  }
+}
+@media screen and (max-width: 3226px) {
+  .wedding-highlight-page {
+    width: 3226px;
+    height: 6389px;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .wedding-highlight-page {
+    width: 1920px;
+    height: 3803px;
+  }
+}
+@media screen and (max-width: 1664px) {
+  .wedding-highlight-page {
+    width: 1680px;
+    height: 3328px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .wedding-highlight-page {
+    width: 1600px;
+    height: 3169px;
+  }
+}
+@media screen and (max-width: 1536px) {
+  .wedding-highlight-page {
+    width: 1536px;
+    height: 3042px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .wedding-highlight-page {
+    width: 1440px;
+    height: 2852px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .wedding-highlight-page {
+    width: 1366px;
+    height: 2705px;
+  }
+}
+@media screen and (max-width: 1290px) {
+  .wedding-highlight-page {
+    width: 1290px;
+    height: 2555px;
+  }
+}
+@media screen and (max-width: 1284px) {
+  .wedding-highlight-page {
+    width: 1284px;
+    height: 2543px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .wedding-highlight-page {
+    width: 1280px;
+    height: 2535px;
+  }
+}
+@media screen and (max-width: 1242px) {
+  .wedding-highlight-page {
+    width: 1242px;
+    height: 2460px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .wedding-highlight-page {
+    width: 1200px;
+    height: 2376px;
+  }
+}
+@media screen and (max-width: 1174px) {
+  .wedding-highlight-page {
+    width: 1174px;
+    height: 2325px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .wedding-highlight-page {
+    width: 1170px;
+    height: 2317px;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .wedding-highlight-page {
+    width: 1125px;
+    height: 2228px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .wedding-highlight-page {
+    width: 1080px;
+    height: 2139px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .wedding-highlight-page {
+    width: 1024px;
+    height: 2028px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .wedding-highlight-page {
+    width: 960px;
+    height: 1901px;
+  }
+}
+@media screen and (max-width: 828px) {
+  .wedding-highlight-page {
+    width: 828px;
+    height: 1640px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .wedding-highlight-page {
+    width: 810px;
+    height: 1604px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wedding-highlight-page {
+    width: 768px;
+    height: 1521px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .wedding-highlight-page {
+    width: 750px;
+    height: 1485px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .wedding-highlight-page {
+    width: 720px;
+    height: 1426px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .wedding-highlight-page {
+    width: 640px;
+    height: 1267px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wedding-highlight-page {
+    width: 480px;
+    height: 950px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .wedding-highlight-page {
+    width: 428px;
+    height: 84px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .wedding-highlight-page {
+    width: 420px;
+    height: 831px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .wedding-highlight-page {
+    width: 414px;
+    height: 820px;
+  }
+}
+@media screen and (max-width: 412px) {
+  .wedding-highlight-page {
+    width: 412px;
+    height: 816px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .wedding-highlight-page {
+    width: 375px;
+    height: 742px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .wedding-highlight-page {
+    width: 360px;
+    height: 713px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .wedding-highlight-page {
+    width: 350px;
+    height: 693px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .wedding-highlight-page {
+    width: 320px;
+    height: 732px;
+  }
+}

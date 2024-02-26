@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* Colors */
+  --color-black: #000;
+  --color-dimgray: #686868;
+  --color-white: #fff;
+  --color-pink-100: #edbdbd;
+  --color-gainsboro-100: #d9d9d9;
+  --color-indianred: #ce6969;
+  --color-orangered: #ff6b00;
+
+  /* Border radiuses */
+  --br-3xl: 22px;
+  --br-32xl: 51px;
+  --br-49xl-3: 68.3px;
+  --br-49xl-8: 68.8px;
+  --br-81xl: 100px;
+  --br-xl-8: 20.8px;
+}
